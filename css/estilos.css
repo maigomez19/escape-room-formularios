@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("./../img/trama.jpg");
+    padding: 2rem;
+    color: white;
+}
+
+#game-container {
+    margin-top: 2em;
+}
+  
+.timer {
+    font-size: 1.5rem;
+    background: #4e4e4e;
+    color: #fff;
+    padding: 0.5rem;
+    display: inline-block;
+    border-radius: 5px;
+    padding: .5em;
+}
+
+button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 2em;
+    font-weight: bold;
+}
+
+.correct, .juego-ganado {
+    background-color: rgb(201, 231, 201);
+    color: rgb(1, 70, 1);
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+.incorrect, .juego-perdido {
+    background-color: rgb(236, 166, 166);
+    color: rgb(110, 8, 8);
+    border-radius: 5px;
+    padding: 1em;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+}
+
+.contenedor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    background-color: rgb(0, 0, 0, 0.95);
+    padding: 3em;
+    border-radius: 5px;
+    border: 2px solid grey;
+}
+
+.desaparecer {
+    display: none;
+}
